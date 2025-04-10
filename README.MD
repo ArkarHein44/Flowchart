@@ -29,5 +29,5 @@ flowchart LR
 ### Example for Sequence
 ```mermaid
 flowchart TB
-	id1[Process]-->id2[Process-->id3[Process]]
+	id1[Process]-->id2[Process]-->id3[Process]
 ```
