@@ -12,7 +12,5 @@ flowchart LR
 	id1([Terminator])	
 	id2[Process]
 	id3[/Input Or Output/]
-	---o 
-	id4{Decision}
-	----> 
+	id4{Decision}	
 ```
