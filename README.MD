@@ -48,7 +48,7 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-    A[*]-->B{Test}
+    A[⚫]-->B{Test}
     B-- True --> C[Process]
     B-- False -->D[Process]
     C-->A
