@@ -28,7 +28,7 @@ flowchart LR
 
 ### Example for Sequence
 ```mermaid
-flowchart TB
+flowchart-elk
 	id1[Process]-->id2[Process]-->id3[Process]
 ```
 
@@ -36,7 +36,7 @@ flowchart TB
 
 ### Example for Selection
 ```mermaid
-flowchart TB
+flowchart-elk
 	A[Start] --> B{Test}
     B -- True --> C[Process]
     B -- False --> D[Process]
@@ -48,9 +48,9 @@ flowchart TB
 
 ```mermaid
 ---
-tittle: while-do loop
+title: while-do loop
 ---
-flowchart TB
+flowchart-elk
     A(( ))-->B{Test}
     B-- True --> C[Process]
     B-- False -->D[Process]
