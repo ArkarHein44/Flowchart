@@ -47,8 +47,9 @@ flowchart TB
 ### Example for iteration
 
 ```mermaid
-A[*]-->B{Test}
-B-- True --> C[Process]
-B-- False -->D[Process]
-C-->A
+flowchart TB
+    A[*]-->B{Test}
+    B-- True --> C[Process]
+    B-- False -->D[Process]
+    C-->A
 ```
