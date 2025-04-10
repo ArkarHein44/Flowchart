@@ -133,5 +133,5 @@ flowchart TB
     G:::Class_01
     H:::Class_01
     I:::Class_01
-    classDef Class_01 fill:#FFD600
+    classDef Class_01 fill:#FFD600, stroke-width:2px, stroke-dasharray: 0, color:#000000
 ```
