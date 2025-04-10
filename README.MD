@@ -36,6 +36,7 @@ flowchart TB
 
 ### Example for Selection
 ```mermaid
+flowchart TB
 	A[Start] --> B{Is condition true?}
     B -- Yes --> C[Process]
     B -- No --> D[Process]
