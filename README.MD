@@ -9,10 +9,10 @@ Possibly the simplest and easiest method to understand the steps in an algorithm
 ### Basic Flowchart symbols
 ```mermaid
 flowchart LR
-	A@{shape: stadium, label: "Terminator"}
-	B@{shape: rect, label: "Process"}
-	C@{shape: lean-r, label: "Input/Output"}
-	D@{shape: f-circ,label: "Connector"}
-	E@{shape: diamond,label: "Decision"}
+	id1([Terminator])	
+	id2[Process]
+	id3[/Input Or Output/]
+	---o Connector
+	id4{Decision}
 	----> Data Flow
 ```
