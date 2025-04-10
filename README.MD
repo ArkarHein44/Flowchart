@@ -9,5 +9,8 @@ Possibly the simplest and easiest method to understand the steps in an algorithm
 ### Basic Flowchart symbols
 ```mermaid
 flowchart LR
-	id1([Terminator]) id2[Process] id3[/Input Or Output/] id4{Decision}	
+	id1([Terminator])
+	id2[Process] 
+	id3[/Input Or Output/] 
+	id4{Decision}	
 ```
