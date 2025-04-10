@@ -47,6 +47,9 @@ flowchart TB
 ### Example for iteration
 
 ```mermaid
+---
+tittle: while-do loop
+---
 flowchart TB
     A(( ))-->B{Test}
     B-- True --> C[Process]
