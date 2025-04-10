@@ -37,11 +37,18 @@ flowchart TB
 ### Example for Selection
 ```mermaid
 flowchart TB
-	A[Start] --> B{Is condition true?}
-    B -- Yes --> C[Process]
-    B -- No --> D[Process]
-    C --> E[End]
-    D --> E
+	A[Start] --> B{Test}
+    B -- True --> C[Process]
+    B -- False --> D[Process]
 ```
 
 ---
+
+### Example for iteration
+
+```mermaid
+A[*]-->B{Test}
+B-- True --> C[Process]
+B-- False -->D[Process]
+C-->A
+```
