@@ -25,3 +25,9 @@ flowchart LR
 6. A data flow shows the direction of data’s movement through the algorithm 
 
 ---
+
+### Example for Sequence
+```mermaid
+flowchart TB
+	id1[Process]-->id2[Process-->id3[Process]]
+```
