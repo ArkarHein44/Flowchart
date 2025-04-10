@@ -12,7 +12,5 @@ flowchart LR
 	id1([Terminator]) ~~~ id2[Process] ~~~ id3[/Input Or Output/]  ~~~ 	id4{Decision}	
 ```
 
-<div class="circle" style="width: 5px; height: 5px; background-color: blue; border-radius: 50%; display: inline-block;"></div><b>Connector</b><br>
-
-(:black_circle:) Connector <br>
+⚫ Connector <br>
 &rarr; Data Flow
