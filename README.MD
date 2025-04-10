@@ -56,3 +56,17 @@ flowchart-elk
     B-- False -->D[Process]
     C-->A
 ```
+
+```mermaid
+---
+title: repeat-until loop
+---
+flowchart-elk
+    A(( ))-->B[Process]
+    B-->C{Test}
+    C-- True --> D(( ))
+    C-- False --> A   
+```
+
+---
+
