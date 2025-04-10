@@ -31,3 +31,16 @@ flowchart LR
 flowchart TB
 	id1[Process]-->id2[Process]-->id3[Process]
 ```
+
+---
+
+### Example for Selection
+```mermaid
+	A[Start] --> B{Is condition true?}
+    B -- Yes --> C[Process]
+    B -- No --> D[Process]
+    C --> E[End]
+    D --> E
+```
+
+---
